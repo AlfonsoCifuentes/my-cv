@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+
+}
+
+.card {
+  margin: 2rem 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid black;
+  background-color: rgba(68, 79, 129, 0.63);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+img {
+  width: 150px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+a {
+  color: #0d0190;
+  text-decoration: none;
+}
+
+button {
+  border-style: none;
+  background-color: #ebac00;
+  padding: 1rem 5rem;
+  margin: 2rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 0px 0px #e7c871;
+
+  &:hover{
+    background-color: #ffe394;
+    box-shadow: none;
+  }
+}
+
+.flexHorizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flexVertical {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
